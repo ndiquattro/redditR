@@ -1,8 +1,8 @@
 Package: redditR
-Title: API wrapper for reddit
+Title: Simple API wrapper for oAuth and POST requests for reddit.com
 Version: 0.1
-Authors@R: “Nick DiQuattro <ndiquattro@gmail.com> [aut, cre]"
-Description: Makes it easy to interact with reddit from R
+Authors@R: "Nick DiQuattro <nickof4@gmail.com> [aut, cre]"
+Description: See title
 Depends:
     R (>= 3.1.1)
 License: Be excellent to one another

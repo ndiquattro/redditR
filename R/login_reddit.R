@@ -15,7 +15,7 @@ login_reddit <- function (user, pass, client, secret) {
                                 username = user,
                                 password = pass),
                     encode = "form",
-                    authenticate(client, secret)
+                    httr::authenticate(client, secret)
             ))
 
   return(token$access_token)

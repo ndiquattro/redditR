@@ -1,9 +1,10 @@
 Package: redditR
-Title: Simple API wrapper for oAuth and POST requests for reddit.com
-Version: 0.1
-Authors@R: "Nick DiQuattro <nickof4@gmail.com> [aut, cre]"
-Description: See title
-Depends:
-    R (>= 3.1.1)
-License: Be excellent to one another
+Title: A Simple reddit API Wrapper for R
+Version: 0.0.0.9000
+Authors@R: person("Nicholas", "DiQuattro", email = "ndiquattro@gmail.com", role = c("aut", "cre"))
+Description: Provides convience functions for accessing and parsing JSON data from the reddit api.
+Depends: R (>= 3.2.0)
+License: MIT
 LazyData: true
+Imports: dplyr,
+    httr

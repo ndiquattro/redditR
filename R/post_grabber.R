@@ -3,6 +3,7 @@
 #' Grabs posts and post information from a sub-reddit or the main page.
 #' @param url link to frontpage ("http://www.reddit.com/") or a subreddit ("http://www.reddit.com/r/nfl).
 #' @param nmult Multipler applied to number of posts to grab (for 500 posts: nmult = 5, pnum = 100)
+#' @param pnum Number of posts to grab in each set (25:100)
 #' @note You can only grab up to the 1,000 most recent posts.
 #' @export
 
